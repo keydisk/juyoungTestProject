@@ -7,6 +7,8 @@
 
 import UIKit
 
+import RxSwift
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -16,6 +18,12 @@ class ViewController: UIViewController {
         if #available(iOS 13.0, *) {
             self.overrideUserInterfaceStyle = .light
         }
+        
+        _ = ServerComm.shared.requestJsonData(.post, url: "/etc/checkversion").subscribe(onNext: { json in
+            print("json : \(json)")
+        }, onError: {error in
+            print("error : \(error as NSError)")
+        })
     }
 
 

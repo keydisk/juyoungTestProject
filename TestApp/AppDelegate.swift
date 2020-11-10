@@ -8,6 +8,7 @@
 import UIKit
 
 import Firebase
+import RxSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,6 +19,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //            Fabric.with([Crashlytics.self])
         /// true : 크러시 데이터 수집, false : 수집하지 않음
         Crashlytics.crashlytics().setCrashlyticsCollectionEnabled(true)
+        
+        _ = ServerComm.shared.requestJsonData(.post, url: "/etc/checkversion").subscribe(onNext: { json in
+            print("json : \(json)")
+        }, onError: {error in
+            print("error : \(error as NSError)")
+        })
         
         return true
     }

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300DBED2255AA13100B90BE8 /* UIDeviceExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300DBED1255AA13100B90BE8 /* UIDeviceExtenstion.swift */; };
+		300DBEDA255AA2B000B90BE8 /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300DBED7255AA2B000B90BE8 /* KeychainSwift.swift */; };
+		300DBEDB255AA2B000B90BE8 /* TegKeychainConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300DBED8255AA2B000B90BE8 /* TegKeychainConstants.swift */; };
+		300DBEDC255AA2B000B90BE8 /* KeychainSwiftAccessOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300DBED9255AA2B000B90BE8 /* KeychainSwiftAccessOptions.swift */; };
 		30FDF1C325594007003CE373 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDF1C225594007003CE373 /* AppDelegate.swift */; };
 		30FDF1C525594007003CE373 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDF1C425594007003CE373 /* SceneDelegate.swift */; };
 		30FDF1C725594007003CE373 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDF1C625594007003CE373 /* ViewController.swift */; };
@@ -46,6 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		300DBED1255AA13100B90BE8 /* UIDeviceExtenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtenstion.swift; sourceTree = "<group>"; };
+		300DBED7255AA2B000B90BE8 /* KeychainSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainSwift.swift; sourceTree = "<group>"; };
+		300DBED8255AA2B000B90BE8 /* TegKeychainConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TegKeychainConstants.swift; sourceTree = "<group>"; };
+		300DBED9255AA2B000B90BE8 /* KeychainSwiftAccessOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainSwiftAccessOptions.swift; sourceTree = "<group>"; };
 		30FDF1BF25594007003CE373 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FDF1C225594007003CE373 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30FDF1C425594007003CE373 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +115,16 @@
 				C0E2CAC4DE4E934968982726 /* Pods_TestApp.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		300DBED6255AA2B000B90BE8 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				300DBED7255AA2B000B90BE8 /* KeychainSwift.swift */,
+				300DBED8255AA2B000B90BE8 /* TegKeychainConstants.swift */,
+				300DBED9255AA2B000B90BE8 /* KeychainSwiftAccessOptions.swift */,
+			);
+			path = Keychain;
 			sourceTree = "<group>";
 		};
 		30FDF1B625594007003CE373 = {
@@ -220,11 +238,13 @@
 		30FDF23C255945DA003CE373 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				300DBED6255AA2B000B90BE8 /* Keychain */,
 				30FDF23D255945E8003CE373 /* UserDefaults.swift */,
 				30FDF2482559474A003CE373 /* UIViewExtension.swift */,
 				30FDF24D2559477C003CE373 /* UIImageExtension.swift */,
 				30FDF252255947BB003CE373 /* UIColorExtension.swift */,
 				30FDF25725594821003CE373 /* NSErrorExtension.swift */,
+				300DBED1255AA13100B90BE8 /* UIDeviceExtenstion.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -424,13 +444,17 @@
 				30FDF2272559441F003CE373 /* Constants.swift in Sources */,
 				30FDF1C725594007003CE373 /* ViewController.swift in Sources */,
 				30FDF2382559458C003CE373 /* FcmObj.swift in Sources */,
+				300DBED2255AA13100B90BE8 /* UIDeviceExtenstion.swift in Sources */,
+				300DBEDC255AA2B000B90BE8 /* KeychainSwiftAccessOptions.swift in Sources */,
 				30FDF24E2559477C003CE373 /* UIImageExtension.swift in Sources */,
+				300DBEDB255AA2B000B90BE8 /* TegKeychainConstants.swift in Sources */,
 				30FDF1C325594007003CE373 /* AppDelegate.swift in Sources */,
 				30FDF25825594821003CE373 /* NSErrorExtension.swift in Sources */,
 				30FDF221255943E6003CE373 /* ServerComm.swift in Sources */,
 				30FDF23E255945E8003CE373 /* UserDefaults.swift in Sources */,
 				30FDF2492559474A003CE373 /* UIViewExtension.swift in Sources */,
 				30FDF253255947BB003CE373 /* UIColorExtension.swift in Sources */,
+				300DBEDA255AA2B000B90BE8 /* KeychainSwift.swift in Sources */,
 				30FDF244255946C6003CE373 /* CustomToastMessage.swift in Sources */,
 				30FDF1C525594007003CE373 /* SceneDelegate.swift in Sources */,
 			);
