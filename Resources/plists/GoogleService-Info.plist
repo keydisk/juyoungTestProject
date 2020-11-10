@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>833834196869-o3e6klj0u41r42rpm4vetakjs0l7439a.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.833834196869-o3e6klj0u41r42rpm4vetakjs0l7439a</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA4TE2MdHn-PzHp3OaxoRYc9wLu4HxSaN0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>833834196869</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kaovx.tf1.testApp</string>
+	<key>PROJECT_ID</key>
+	<string>juyoungportfolio-b65cb</string>
+	<key>STORAGE_BUCKET</key>
+	<string>juyoungportfolio-b65cb.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:833834196869:ios:f73ccc2742d648398e6eec</string>
+	<key>DATABASE_URL</key>
+	<string>https://juyoungportfolio-b65cb.firebaseio.com</string>
+</dict>
+</plist>

@@ -85,6 +85,7 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (6.7.2):
     - GoogleUtilities/Logger
+  - Kingfisher (5.3.1)
   - nanopb (1.30906.0):
     - nanopb/decode (= 1.30906.0)
     - nanopb/encode (= 1.30906.0)
@@ -114,6 +115,7 @@ DEPENDENCIES:
   - FirebaseCore
   - FirebaseDynamicLinks
   - FirebaseMessaging
+  - Kingfisher (~> 5.3.0)
   - RxAlamofire
   - RxCocoa
   - RxSwift
@@ -136,6 +138,7 @@ SPEC REPOS:
     - GoogleAppMeasurement
     - GoogleDataTransport
     - GoogleUtilities
+    - Kingfisher
     - nanopb
     - PromisesObjC
     - Protobuf
@@ -161,6 +164,7 @@ SPEC CHECKSUMS:
   GoogleAppMeasurement: a6a3a066369828db64eda428cb2856dc1cdc7c4e
   GoogleDataTransport: f56af7caa4ed338dc8e138a5d7c5973e66440833
   GoogleUtilities: 7f2f5a07f888cdb145101d6042bc4422f57e70b3
+  Kingfisher: d9e7e0b209b59b8f9873aa2f37654e81a7beea51
   nanopb: 59317e09cf1f1a0af72f12af412d54edf52603fc
   PromisesObjC: 8c196f5a328c2cba3e74624585467a557dcb482f
   Protobuf: 3dac39b34a08151c6d949560efe3f86134a3f748
@@ -170,6 +174,6 @@ SPEC CHECKSUMS:
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: d3d7c123e5756cb1516d3bf8ba62008620b8637e
+PODFILE CHECKSUM: 512f9297193140228673c9e531126a3a36538b16
 
 COCOAPODS: 1.9.1

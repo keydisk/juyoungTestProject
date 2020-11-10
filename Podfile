@@ -8,6 +8,7 @@ def common_pods
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'SwiftyJSON', '~> 4.2.0'
+  pod 'Kingfisher', '~> 5.3.0'
   
   pod 'Firebase'
   pod 'FirebaseCore'
